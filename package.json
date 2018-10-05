@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A simple slider, used by @creenv/gui",
   "keywords": [
-    "creenv", 
+    "creenv",
     "slider"
   ],
   "license": "MIT",
