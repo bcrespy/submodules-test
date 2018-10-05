@@ -1,0 +1,36 @@
+{
+  "name": "@creenv/slider",
+  "version": "0.0.1",
+  "description": "A simple slider, used by @creenv/gui",
+  "keywords": [
+    "creenv", 
+    "slider"
+  ],
+  "license": "MIT",
+  "author": "Baptiste Crespy",
+  "homepage": "https://github.com/bcrespy/creenv-slider.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcrespy/creenv-slider.git"
+  },
+  "bugs": {
+    "mail": "baptiste.crespy@gmail.com",
+    "url": "https://github.com/bcrespy/creenv-slider/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "",
+    "test": "cross-env NODE_ENV=test jest",
+    "test:watch": "cross-env NODE_ENV=test jest --watch",
+    "test:cover": "cross-env NODE_ENV=test jest --coverage",
+    "prepublish": "npm run test"
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.1.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
