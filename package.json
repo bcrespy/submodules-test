@@ -30,7 +30,9 @@
     "prepublish": "npm run test"
   },
   "peerDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "@creenv/inject-css": "0.0.1"
+  },
   "devDependencies": {
     "cross-env": "^5.1.4",
     "watchify": "^3.11.0"
