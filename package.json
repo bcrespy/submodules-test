@@ -18,8 +18,12 @@
     "url": "https://github.com/bcrespy/creenv-slider/issues"
   },
   "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "clean": "",
+    "start": "watchify ./src/main.js -o ./src/bundle.js",
     "test": "cross-env NODE_ENV=test jest",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
     "test:cover": "cross-env NODE_ENV=test jest --coverage",
@@ -28,7 +32,8 @@
   "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
-    "cross-env": "^5.1.4"
+    "cross-env": "^5.1.4",
+    "watchify": "^3.11.0"
   },
   "jest": {
     "testEnvironment": "node"
