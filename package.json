@@ -1,6 +1,6 @@
 {
   "name": "@creenv/slider",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple slider, used by @creenv/gui",
   "keywords": [
     "creenv",
