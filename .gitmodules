@@ -1,0 +1,3 @@
+[submodule "test/submo"]
+	path = test/submo
+	url = https://github.com/bcrespy/creenv-gui.git
